@@ -12,9 +12,7 @@ function Intro() {
 	return (
 		<main>
 			<header>
-				<div>
-					<img src='./images/logo.svg' alt='logo' />
-				</div>
+			
 			</header>
 			<div className='container'>
 				<div>
@@ -67,13 +65,7 @@ function Customizer() {
 			<main>
 				<header>
 					<div>
-						<img
-							src='./images/logo.svg'
-							alt='logo'
-							onClick={() => {
-								state.intro = true
-							}}
-						/>
+					
 					</div>
 				</header>
 				<div className='container'>
